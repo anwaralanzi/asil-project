@@ -69,10 +69,9 @@ alert(`مرحبا${Email}`)
           <Heading dir='rtl' ml={'30'}mt={'10'} color={'#f2a900'} fontSize={'2xl'}>سجل الدخول لحسابك</Heading>
           <FormControl id="email">
             <FormLabel dir='rtl' color={'#f2a900'}>ادخل الايميل</FormLabel>
-            <Input onChange={e =>{setEmail(e.target.value)}} type="email" 
+            <Input onChange={e =>{setEmail(e.target.value)}} textColor={'#3f3f4e'} type="email" 
                               placeholder="example@example.com"
                               bg={'gray.300'}
-color={'white'}
             />
           </FormControl>
           <FormControl id="password">
@@ -80,7 +79,7 @@ color={'white'}
             <Input onChange={e =>{setPassword(e.target.value)}} type="password" 
               placeholder="example@example.com"
               bg={'gray.300'}
-color={'white'}
+color={'#3f3f4e'}
             
             />
           </FormControl>
